@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c009818-1f38-440a-9c47-56167043fb3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OpenBootcamp-Java-Course-POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/clases/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/clases/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/clases/Vehiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/conIntefaces/CrudEmpleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/conIntefaces/EmpleadoCrudMySQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/conIntefaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioHerencia/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioHerencia/SmartDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioHerencia/SmartPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioHerencia/SmartWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioInterfaces/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioInterfaces/CocheCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioInterfaces/CocheCRUDImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/ejercicioInterfaces/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/herencia/Camion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/herencia/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/herencia/Motocicleta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/sinInterfaces/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/sinInterfaces/EmpleadoCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/poo/sinInterfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advancedDataTypes/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/advancedDataTypes/Vectores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,15 +34,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Usuario Final/Documents/parameta/ROTOPLAS/PIF4COUPA"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario Final/Documents/parameta/ROTOPLAS/PIF4COUPA&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="poo.clases" />
