@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c009818-1f38-440a-9c47-56167043fb3d" name="Changes" comment="course updating ending module number 9 error handling">
-      <change afterPath="$PROJECT_DIR$/src/EntradaSalida/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EntradaSalida/classBufferedInputStrem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EntradaSalida/classPrintStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="2c009818-1f38-440a-9c47-56167043fb3d" name="Changes" comment="course updating finish module number 10 Input,Output.">
+      <change afterPath="$PROJECT_DIR$/src/ejercicioModulos789/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenBootcamp-Java-Course-POO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenBootcamp-Java-Course-Module-5-.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670710020797</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="course updating finish module number 10 Input,Output.">
+      <created>1672095036056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672095036056</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +92,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="course updating arrays and vectors" />
-    <option name="LAST_COMMIT_MESSAGE" value="course updating arrays and vectors" />
+    <MESSAGE value="course updating finish module number 10 Input,Output." />
+    <option name="LAST_COMMIT_MESSAGE" value="course updating finish module number 10 Input,Output." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
