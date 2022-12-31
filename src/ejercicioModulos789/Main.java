@@ -1,5 +1,6 @@
 package ejercicioModulos789;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Vector;
@@ -17,7 +18,7 @@ public class Main {
         System.out.println("\n");
 
         System.out.println("Ejercicio 2");
-        int nuevaMatrix[][] = new int[3][3];
+        int[][] nuevaMatrix = new int[3][3];
         fillMatrix(nuevaMatrix);
 
         for (int i = 0; i < nuevaMatrix.length; i++) {
@@ -28,7 +29,7 @@ public class Main {
         System.out.println("\n");
 
         System.out.println("Ejercicio 3");
-        Vector<Integer> vector = new Vector();
+        Vector<Integer> vector = new Vector<>();
         vector.add(1);
         vector.add(2);
         vector.add(3);
@@ -87,6 +88,18 @@ public class Main {
 
         System.out.println("Ejercicio 7");
         dividirPorCero(10, 0);
+        System.out.println("\n");
+
+        System.out.println("Ejercicio 8");
+        try {
+            InputStream file = new FileInputStream("src\\ejercicioModulos789\\fileIn.txt");
+            PrintStream exitFile = new PrintStream("src\\ejercicioModulos789\\archivoSalida.txt");
+            copyFile(file, exitFile);
+        } catch (FileNotFoundException exception) {
+            System.out.println("Error finding the file: " + exception.getMessage());
+        } catch (IOException exception) {
+            System.out.println("Error reading the file: " + exception.getMessage());
+        }
     }
 
     public static void fillMatrix(int[][] matrix) {
@@ -105,5 +118,22 @@ public class Main {
         } finally {
             System.out.println("Demo de código");
         }
+    }
+
+    public static void copyFile(InputStream fileIn, PrintStream fileOut) throws IOException {
+        try {
+            byte[] fileData = fileIn.readAllBytes();
+
+            for (byte data : fileData) {
+                fileOut.print((char) data);
+            }
+            fileOut.close();
+            System.out.println("Finish successfully");
+
+        } catch (IOException exception) {
+            System.out.println("Error reading the file: " + exception.getMessage());
+        }
+
+
     }
 }
