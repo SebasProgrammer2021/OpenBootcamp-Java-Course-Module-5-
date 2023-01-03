@@ -1,17 +1,20 @@
 package ejercicioModulos789;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * @author Sebastián Londoño Valencia
  */
 public class Main {
     public static void main(String[] args) {
-        String[] womenNames = {"Sofia", "Lorena", "Lisa", "Kendra", "Valentina"};
+        System.out.println("Ejercicio 0");
+        String reversedString = reverseString("Finish successfully");
+        System.out.println(reversedString);
+        System.out.println("\n");
+
         System.out.println("Ejercicio 1");
+        String[] womenNames = {"Sofia", "Lorena", "Lisa", "Kendra", "Valentina"};
         for (String name : womenNames) {
             System.out.println("name = " + name);
         }
@@ -100,6 +103,26 @@ public class Main {
         } catch (IOException exception) {
             System.out.println("Error reading the file: " + exception.getMessage());
         }
+        System.out.println("\n");
+
+        System.out.println("Ejercicio 9");
+        try {
+            InputStream personInfo = new FileInputStream("src\\ejercicioModulos789\\fileIn9.txt");
+            HashMap<String, String> extraInformation = new HashMap<>();
+            ArrayList<String> tastes = new ArrayList<>();
+            extraInformation.put("Age", "20");
+            extraInformation.put("Nationality", "Colombian");
+            extraInformation.put("FavoriteColor", "red");
+            tastes.add("Act");
+            tastes.add("Sing");
+            tastes.add("Swimming");
+
+            fillMissingPersonInfo(personInfo, extraInformation, tastes);
+        } catch (FileNotFoundException exception) {
+            System.out.println("Error finding the file: " + exception.getMessage());
+        } catch (IOException exception) {
+            System.out.println("Error reading the file: " + exception.getMessage());
+        }
     }
 
     public static void fillMatrix(int[][] matrix) {
@@ -133,7 +156,42 @@ public class Main {
         } catch (IOException exception) {
             System.out.println("Error reading the file: " + exception.getMessage());
         }
+    }
 
+    public static String reverseString(String word) {
+        String result = "";
+        char wordElement;
 
+        for (int i = 0; i < word.length(); i++) {
+            wordElement = word.charAt(i);
+            result = wordElement + result;
+        }
+
+        return result;
+    }
+
+    public static void fillMissingPersonInfo(InputStream fileIn, HashMap<String, String> extraInformation, ArrayList<String> tastes) throws IOException {
+        PrintStream exitFile = new PrintStream("src\\ejercicioModulos789\\fileOut9.txt");
+
+        try {
+            byte[] fileData = fileIn.readAllBytes();
+            String personTastes = "Tastes: ";
+
+            for (byte data : fileData) {
+                exitFile.print((char) data);
+            }
+            for (Map.Entry info : extraInformation.entrySet()) {
+                exitFile.println(info.getKey() + ": " + info.getValue());
+            }
+            for (String taste : tastes) {
+                personTastes += taste + ".";
+            }
+            exitFile.println(personTastes);
+            exitFile.close();
+            System.out.println("Information filled successfully");
+
+        } catch (IOException exception) {
+            System.out.println("Error reading the file: " + exception.getMessage());
+        }
     }
 }

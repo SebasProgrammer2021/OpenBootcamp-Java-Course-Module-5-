@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c009818-1f38-440a-9c47-56167043fb3d" name="Changes" comment="finish module #8">
-      <change afterPath="$PROJECT_DIR$/src/ejercicioModulos789/fileIn.txt" afterDir="false" />
+    <list default="true" id="2c009818-1f38-440a-9c47-56167043fb3d" name="Changes" comment="it was updated the exercise for the module 7,8,9.">
+      <change afterPath="$PROJECT_DIR$/src/ejercicioModulos789/fileIn9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejercicioModulos789/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejercicioModulos789/Main.java" afterDir="false" />
     </list>
@@ -37,18 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario Final/Documents/parameta/ROTOPLAS/PIF4COUPA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Usuario Final/Documents/estudio/OpenBootcamp-Java-Course-POO/src/ejercicioModulos789",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="poo.clases" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario Final\Documents\estudio\OpenBootcamp-Java-Course-POO\src\ejercicioModulos789" />
     </key>
   </component>
   <component name="RunManager">
